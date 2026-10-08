@@ -1,0 +1,40 @@
+site_name: Discount Radar
+site_description: Documentacion del Proyecto Final
+site_author: Stevan Jaramillo
+
+theme:
+  name: material
+  language: es
+
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigations.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tabs.link
+
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Cambiar a modo oscuro
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Cambiar a modo claro
+
+nav:
+  - Inicio: introduccion-contexto-y-objetivos.md
+  - caracteristicas: caracteristicas.md
+  - Alertas de Precio: Alertas.md
+  - Guia de uso: GuiadeUso.md
+  - Preguntas frecuentes: Preguntas.md
